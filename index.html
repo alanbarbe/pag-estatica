@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodejs</title>
+    <link rel="stylesheet" href="/dist/styles.css">
+  </head>
+  <body> 
+    <main>
+      <section class="left"> 
+        <h1>Node.js</h1>
+        <p>Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google</p><br>
+        <p>Un ejemplo de codigo es:</p>
+        <pre>var http = require('http'); <br/> http.createServer(function (req, res) {<br/> res.writeHead(200, {'Content-Type': 'text/plain'});<br/> res.end('Hello World!'); <br/> }).listen(8080); <br/></pre>
+        <p class="left__last-p">Node.js está escrito en C, C++ y JavaScript.<br/><br/> Wikipedia define Node.js como «una compilación empaquetada del motor JavaScript V8 de Google, la capa de abstracción de la plataforma libuv y una biblioteca central, que a su vez está escrita principalmente en JavaScript».<br/><br/>El tiempo de ejecución utiliza internamente Chrome V8, que es el motor de ejecución de JavaScript, y también está escrito en C++. Esto añade casos de uso adicionales al repertorio de Node.js, como el acceso a la funcionalidad interna del sistema (como la red).</p><a class="left__button" href="https://nodejs.org/es/download/" target="__blank">Descargar</a>
+        <h2 class="left__subtitle">Tutorial de Nodejs</h2>
+        <div class="video-container"><iframe width="auto" height="auto" src="https://www.youtube.com/embed/BhvLIzVL8_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      </section>
+      <section class="right">
+        <table class="right__table">
+          <tr class="table__row"> 
+            <th class="row__title excluded">Información adicional</th>
+          </tr>
+          <tr class="table__row">
+            <td class="row__cell excluded"><img class="row__cell--img" src="/nodejs.webp"></td>
+          </tr>
+          <tr class="table__row">
+            <td class="row__cell">Autor:</td>
+            <td class="row__cell">Ryan Dahl</td>
+          </tr>
+          <tr class="table__row">
+            <td class="row__cell">Licencia:</td>
+            <td class="row__cell">Licencia MIT</td>
+          </tr>
+          <tr class="table__row">
+            <td class="row__cell">Lanzamiento:</td>
+            <td class="row__cell">27 de mayo de 2009​</td>
+          </tr>
+          <tr class="table__row">
+            <td class="row__cell">Lenguajes:</td>
+            <td class="row__cell">C++, JavaScript</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <p class="footer__container--p">Por: Tomas Di Mauro, EEST N°5<a class="footer__container--link" href="https://github.com/TomasDmArg/">Source</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

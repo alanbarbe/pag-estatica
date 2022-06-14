@@ -1,0 +1,44 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Nodejs
+        link(rel="stylesheet", href="/dist/styles.css")
+    body 
+        main
+            section.left 
+                h1 Node.js
+                p Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google
+                br
+                p Un ejemplo de codigo es:
+                pre var http = require('http'); <br/> http.createServer(function (req, res) {<br/> res.writeHead(200, {'Content-Type': 'text/plain'});<br/> res.end('Hello World!'); <br/> }).listen(8080); <br/>
+                p.left__last-p Node.js está escrito en C, C++ y JavaScript.<br/><br/> Wikipedia define Node.js como «una compilación empaquetada del motor JavaScript V8 de Google, la capa de abstracción de la plataforma libuv y una biblioteca central, que a su vez está escrita principalmente en JavaScript».<br/><br/>El tiempo de ejecución utiliza internamente Chrome V8, que es el motor de ejecución de JavaScript, y también está escrito en C++. Esto añade casos de uso adicionales al repertorio de Node.js, como el acceso a la funcionalidad interna del sistema (como la red).
+                a.left__button(href="https://nodejs.org/es/download/", target="__blank") Descargar
+                h2.left__subtitle Tutorial de Nodejs
+                .video-container
+                    <iframe width="auto" height="auto" src="https://www.youtube.com/embed/BhvLIzVL8_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            section.right
+                table.right__table
+                    tr.table__row 
+                        th.row__title.excluded Información adicional
+                    tr.table__row
+                        td.row__cell.excluded
+                            img.row__cell--img(src="/nodejs.webp")
+                    tr.table__row
+                        td.row__cell Autor:
+                        td.row__cell Ryan Dahl
+                    tr.table__row
+                        td.row__cell Licencia:
+                        td.row__cell Licencia MIT
+                    tr.table__row
+                        td.row__cell Lanzamiento:
+                        td.row__cell 27 de mayo de 2009​
+                    tr.table__row
+                        td.row__cell Lenguajes:
+                        td.row__cell C++, JavaScript
+        footer.footer
+            .footer__container
+                p.footer__container--p Por: Tomas Di Mauro, EEST N°5
+                    a.footer__container--link(href='https://github.com/TomasDmArg/') Source
